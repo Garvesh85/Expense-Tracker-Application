@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "server":"nodemon BackEnd/index.js",
-    "start": "node index.js",
+    "start": "node BackEnd/index.js",
     "build":"npm install && npm install --prefix FrontEnd && npm run build --prefix FrontEnd"
   },
   "author": "Garvesh",
